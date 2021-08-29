@@ -1,0 +1,23 @@
+<div class="container-fluid p-3">
+	<h1>Tambah postingan baru</h1>
+	<% if(kirim == true) { %>
+	<div class="alert alert-success" role="alert">Postingan telah dibuat! Silahkan kembali ke beranda dengan <a href="/" class="alert-link">Klik Disini</a>.
+	</div>
+	<% } %>
+<form method="post" action="/addpost">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Alamat Gambar</label>
+    <input type="text" class="form-control" id="gambar" name="gambar" required>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail" class="form-label">Nama Pengguna</label>
+    <input type="text" class="form-control" id="nama" name="nama" required>
+  </div>
+  <div class="mb-3">                                                       <label for="exampleInputEmail" class="form-label">Caption</label>      <input type="text" class="form-control" id="caption" name="caption" required>
+  </div>
+  <button type="submit" class="btn btn-success">Tambah postingan</button>
+
+</form>
+
+</div>
+
