@@ -2,9 +2,9 @@
   "name": "sosmed-indonesia",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index"
+    "start": "node app"
   },
   "author": "Devan Sayidina",
   "license": "MIT",
